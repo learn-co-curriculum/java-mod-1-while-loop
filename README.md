@@ -41,7 +41,7 @@ int targetYear = 2011;
 int currentYear = startingYear;
 while (currentYear < targetYear) {
     int yearDifference = currentYear - startingYear;
-    System.out.println(yearDifference);
+    System.out.println(yearDifference + " year(s) have passed");
     // conditional logic based on the current year
     currentYear++;
 }
@@ -57,17 +57,17 @@ stop executing.
 Let's see what happens when we run this code!
 
 ```java
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+0 year(s) have passed
+1 year(s) have passed
+2 year(s) have passed
+3 year(s) have passed
+4 year(s) have passed
+5 year(s) have passed
+6 year(s) have passed
+7 year(s) have passed
+8 year(s) have passed
+9 year(s) have passed
+10 year(s) have passed
 ```
 
 Notice that the output prints out the numbers 0 - 10. Let's walk through a
