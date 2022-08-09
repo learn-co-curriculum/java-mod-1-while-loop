@@ -1,8 +1,8 @@
-# The while Statement
+# While Loops
 
 ## Learning Goals
 
-- Use while statements
+- Define what a `while` loop is and how to implement it
 
 ## The while Statement in Java
 
